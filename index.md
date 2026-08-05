@@ -109,7 +109,7 @@ underscores). If you build different versions of your planner from the same
 repository, use a different `<shortname>` per version. A single entry can
 participate in multiple tracks, see "Apptainer Images" for details.
 
-We got many registrations and in particular many registrations with
+In previous IPCs, there were many registrations and in particular many registrations with
 multiple submissions in a team. To keep the computation time manageable, we
 ask that you limit your submissions to one variant per planner. If two of
 your submissions are substantially different ideas, it is of course fine to
@@ -118,21 +118,8 @@ planner abstracts, then they are two submissions. If you would describe them
 in one planner abstract with a short paragraph describing the differences
 between them, they are variants of the same planner.
 
-After some discussions, we decided to allow multiple variants of the same
-planner if you think they are likely end up on very different spots in
-scoring (i.e., not next to each other).
-In that case, you should still
-write two planner abstracts, but one may discuss the difference to the
-other submission. In that case, we ask you to write a paragraph into the
-second planner abstract that discusses your reasons of why you think
-this should be a separate submission, i.e., why you think these two
-submissions will not end up next to each other in the scoring. In the
-post-IPC analysis, we then ask you to evaluate this reasoning: if the
-planners indeed ended up in very different spots, what made the
-difference? If they ended up next to each other, why did this happen?
-Moreover, if the leaderboard ends up with multiple variants of the same
-planner in the first places, we reserve the right to merge these entries.
-New variants can be submitted until April 16 via pull requests.
+We will provide more information on the number of planners and planner variants 
+allowed per team and participant in the near future.
 
 
 
