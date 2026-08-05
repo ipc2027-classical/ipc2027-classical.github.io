@@ -238,5 +238,6 @@ must be released under a license allowing free non-commercial use.
  - [Clemens Büchner](http://ai.cs.unibas.ch/people/buechner/index.html) (University of Basel)
  - [Daniel Gnad](https://fip.ifi.uni-heidelberg.de) (Heidelberg University \& Linköping University)
  - [Arnaud Lequen](https://mrlab.ai/arnaud-lequen/) (Linköping University)
+ - [David Speck](http://ai.cs.unibas.ch/people/speck/index.html) (University of Basel)
 
 Contact us: [ipc2027-classical@googlegroups.com](ipc2027-classical@googlegroups.com)
