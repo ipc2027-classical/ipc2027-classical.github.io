@@ -225,4 +225,4 @@ must be released under a license allowing free non-commercial use.
  - [Arnaud Lequen](https://mrlab.ai/arnaud-lequen/) (Linköping University)
  - [David Speck](http://ai.cs.unibas.ch/people/speck/index.html) (University of Basel)
 
-Contact us: [ipc2027-classical@googlegroups.com](ipc2027-classical@googlegroups.com)
+Contact us: [ipc2027-classical@googlegroups.com](mailto:ipc2027-classical@googlegroups.com)
