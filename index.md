@@ -229,7 +229,7 @@ All competitors must submit an abstract (max. 300 words) and an up to 8-page
 paper describing their planners. After the competition we ask the participants
 to analyze the results of their planner and submit an extended version of their
 paper. An important requirement for IPC 2027 competitors is to give the
-organizers the right to post their paper and the source code of their planners
+organizers the right to post their paper and the source code of their planners 
 on the official IPC 2027 web site, and the source code of submitted planners
 must be released under a license allowing free non-commercial use.
 
