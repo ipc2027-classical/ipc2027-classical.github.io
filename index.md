@@ -127,6 +127,7 @@ allowed per team and participant in the near future.
 
 The IPC'23 organizers prepared a [demo submission](https://github.com/ipc2023-classical/submission-demo)
 that showcases how to set up the repository and Apptainer scripts.
+We will likely stick to this setup or only do minor modifications for IPC 2027.
 
 Your Apptainer recipe files have to specify the following labels:
 
@@ -205,7 +206,7 @@ to check their results for any errors. If an error was caused by a bug in the
 planner, please send a pull request on Github with a detailed description of the
 bug and the fix. If the error was on our side (e.g., malformed PDDL) let us know
 as soon as possible. We will do at least two rounds of this starting after the
-"feature stop" deadline (exact timeline TBD).
+"feature stop" deadline.
 
 
 ## Planner Abstract Submission
