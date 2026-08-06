@@ -20,8 +20,8 @@ This is the 11th IPC containing classical tracks making it the oldest part of IP
 
 ## Tracks
 
-The tracks have not been finalized, yet. We consider running more than the
-three tracks listed below.
+The tracks have not been finalized, yet. You can expect tracks along the lines 
+of previous years as listed below, but we do consider adapting or extending the list.
 
 ### Optimal Track
  - single CPU core
