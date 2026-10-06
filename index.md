@@ -4,11 +4,16 @@ This is the website for the classical (sequential, deterministic) track of the
 [IPC 2027](https://ipc2027.github.io).
 This is the 11th IPC containing classical tracks making it the oldest part of IPC.
 
+## Calls
+Please forward the following calls to all interested parties.
+
+ - [Call for Domains](calls/ipc2027-call-for-domains.txt)
+
 ## Preliminary Schedule
 
 | Event                                         | Date               |
 |:----------------------------------------------|:-------------------|
-| Call for domains                              | soon               |
+| Call for domains                              | September 14, 2026 |
 | Call for participation                        | autumn 2026        |
 | Domain submission deadline                    | early 2027         |
 | Planner registration                          | early 2027         |
