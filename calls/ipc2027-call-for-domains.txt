@@ -1,0 +1,116 @@
+==============================================================================
+                  2027 International Planning Competition
+                             Classical Tracks
+
+                   Preliminary Schedule and Call for Domains
+
+                    https://ipc2027-classical.github.io
+                    ipc2027-...@googlegroups.com
+==============================================================================
+
+We are delighted to announce the classical track of the 2027 International
+Planning Competition (IPC 2027). The competition is organized in the context
+of the International Conference on Automated Planning and Scheduling (ICAPS)
+and will conclude at ICAPS 2027.
+
+The IPC empirically evaluates state-of-the-art planning systems on a range of
+benchmark problems. Its goals are to promote planning research, highlight
+challenges for the planning community, and provide new and interesting
+benchmarks for future research.
+
+
+Call for domains
+------------------------------------------------------------------------------
+
+We invite submissions of planning domains for the competition. If you would
+like to contribute a domain, or already have one to share, please contact us at
+ipc2027-...@googlegroups.com before the domain submission deadline below.
+An informal email expressing your interest is sufficient at this stage. We will
+work with domain submitters to assess and, where necessary, adapt their domains
+for use in the IPC.
+
+Submissions should ideally include a problem generator whose parameters allow
+the difficulty of instances to be controlled and scaled. Domains related to
+real-world applications are particularly welcome, although this is not a
+requirement. If a domain-specific solver or another way method for finding high-
+quality or optimal solutions, or of proving instances unsolvable, is available,
+please include it as well.
+
+We will consider all submissions and select a high-quality subset for use in
+the competition. In particular, we are interested in domains that
+
+ - model a real-world application or another compelling planning problem,
+ - come with a generator offering meaningful control over instance difficulty,
+ - exhibit interesting intrinsic challenges rather than difficulty arising
+   only from scaling up a simple problem,
+ - include unsolvable instances that are challenging to recognize or prove
+   unsolvable,
+ - pose substantial challenges for grounding, for example by producing large
+   grounded representations even from compact PDDL input, and
+ - provide a way to obtain high-quality or optimal solutions, or to certify
+   unsolvability, for example via a domain-specific solver or suitable generator
+   construction.
+
+We recognize that participants whose submitted domains are selected may have
+some advantage on those domains. We regard this as an incentive to contribute
+strong domain proposals.
+
+One goal of the IPC is to create a new, publicly available benchmark suite for
+future research. We therefore plan to publish all selected domains, generators,
+and related material in a public repository. By submitting a domain, you agree
+that we may do so. We strongly recommend releasing submissions under a
+permissive license, so that others can use and build upon them.
+
+If you do not have a domain yourself but know someone with an interesting
+planning problem, please forward this call to them. If you are unsure whether a
+domain would be suitable, do not hesitate to contact us.
+
+
+PDDL fragment and tracks
+------------------------------------------------------------------------------
+
+IPC 2027 will use the same subset of PDDL as the recent classical tracks. Domains
+may use STRIPS, action costs, negative preconditions, and conditional effects,
+including their combination with universally quantified effects. We will also consider
+domains with disjunctive preconditions and existential quantification. Domains using
+axioms are welcome as well.
+
+As in the previous IPC, we are especially interested in domains and instances
+that pose challenges for grounding, since many classical planners instantiate
+the entire task before search. We also explicitly welcome domains with
+unsolvable instances, particularly when proving unsolvability presents a
+meaningful challenge.
+
+The precise set of tracks has not yet been finalized. We currently expect
+optimal, satisficing, and agile tracks along the lines of previous editions,
+possibly with adaptations or extensions depending on the submissions received.
+
+
+Preliminary schedule
+------------------------------------------------------------------------------
+
+Call for domains:                         September 2026
+Call for participation:                   Autumn 2026
+Domain submission deadline:               Early 2027
+Planner registration:                     Early 2027
+Feature stop (final planner submission):  March-April 2027
+Planner abstract submission deadline:     May 2027
+Contest run:                              May-June 2027
+Results announced:                        ICAPS 2027
+
+We will announce exact dates and submission instructions by email and on the
+competition website: https://ipc2027-classical.github.io.
+
+
+Organizers
+------------------------------------------------------------------------------
+
+Clemens Büchner (University of Basel)
+Daniel Gnad (Heidelberg University & Linköping University)
+Arnaud Lequen (Linköping University)
+David Speck (University of Basel)
+
+Contact: ipc2027-classical@googlegroups.com
+
+==============================================================================
+
