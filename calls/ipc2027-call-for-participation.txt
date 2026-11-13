@@ -10,8 +10,8 @@
 ==============================================================================
 
 We are delighted to announce the classical (deterministic) tracks of the 2027
-International Planning Competition (IPC 2027). The competition is organized
-in the context of the International Conference on Automated Planning and
+International Planning Competition (IPC 2027). The competition is organized in
+the context of the International Conference on Automated Planning and
 Scheduling (ICAPS) and will conclude at ICAPS 2027.
 
 The IPC empirically evaluates state-of-the-art planning systems on a range of
@@ -20,13 +20,13 @@ challenges for the planning community, and provide new and interesting
 benchmarks for future research.
 
 This call gives an overview of the competition. The most up-to-date
-information, is always available on the competition website
+information is always available on the competition website
 (https://ipc2027-classical.github.io).
 
 Note: we are still looking for new, interesting domains for the competition!
 If you would like to contribute a domain, or know someone who might have an
-interesting planning problem, please get in touch with us -- see the Call
-for Domains on our website.
+interesting planning problem, please get in touch with us -- see the Call for
+Domains on our website.
 
 
 PDDL fragment
@@ -47,15 +47,14 @@ There will be four tracks:
  - optimal:
        as usual: planners must find optimal plans for as many problems as
        possible. The score of a planner is the number of tasks it solves
-       optimally. Suboptimal plans are treated like invalid plans (see
-       below).
+       optimally. Suboptimal plans are treated like invalid plans (see below).
 
  - agile:
        as usual: planners must find plans as quickly as possible, regardless
-       of their quality. The time limit is 5 minutes per task.
-       A task solved in T seconds scores 1 if T <= 1, 1 - log(T)/log(300)
-       if 1 < T <= 300, and 0 otherwise; the score of a planner is the sum
-       of its scores over all tasks.
+       of their quality. The time limit is 5 minutes per task. A task solved
+       in T seconds scores 1 if T <= 1, 1 - log(T)/log(300) if 1 < T <= 300,
+       and 0 otherwise; the score of a planner is the sum of its scores over
+       all tasks.
 
  - plan-improvement:
        similar to the former satisficing track, but an initial plan is
@@ -77,8 +76,8 @@ There will be four tracks:
        effects, and no quantifiers.
 
 All tracks share the same compute resources: a single CPU core, 8 GB of
-memory, and no internet connection. Except for the agile track, the time
-limit is 30 minutes per task.
+memory, and no internet connection. The time limit is 30 minutes per task,
+except in the agile track.
 
 In all tracks, if a planner returns an invalid plan in a domain, all tasks of
 that domain count as unsolved; if this happens in more than one domain, the
@@ -104,8 +103,8 @@ participants are requested to send us an email expressing interest
     planners can be built from the same repository), and
  5. a (tentative) list of the tracks the team intends to enter.
 
-Note that each person may be the first author of at most one planner per
-track (see "Planner submission" below).
+Note that each person may be the first author of at most one planner per track
+(see "Planner submission" below).
 
 Based on this, we will create private repositories under the ipc2027-classical
 GitHub organization and add all team members with write access. Exact
@@ -121,28 +120,27 @@ planners, which will be run by the organizers on the actual competition
 domains/problems, unknown to the competitors until that time. This way no
 fine-tuning of the planners will be possible.
 
-We will use the container technology Apptainer (essentially a fork of
-Singularity) to promote reproducibility. Planners are developed in the team's
-private repository; we only consider the branch "ipc2027-classical", and every
-file named Apptainer.<shortname> in its root directory defines one
-competition entry, which may participate in multiple tracks (declared via
-the Tracks label of the recipe). After the competition, we plan to make all
-planners, domains, and related data publicly available.
+We use the container technology Apptainer (essentially a fork of Singularity)
+to promote reproducibility. Planners are developed in the team's private
+repository; we only consider the branch "ipc2027-classical", and every file
+named Apptainer.<shortname> in its root directory defines one competition
+entry, which may participate in multiple tracks (declared via the Tracks label
+of the recipe). After the competition, we plan to make all planners, domains,
+and related data publicly available.
 
-To keep the required computation time manageable, each person may be the
-first author of at most one planner per track. There is no limit on the
-number of planners a person can be a co-author (i.e., not first author) of.
-Please also limit your submissions (across first authors) to one variant
-per planner: if two submissions would be described by two separate planner
-abstracts, they count as two planners; variants that can be described in
-one abstract count as one planner.
+To keep the required computation time manageable, each person may be the first
+author of at most one planner per track. There is no limit on the number of
+planners a person can co-author (i.e., not first author). Please also limit
+your submissions (across first authors) to one variant per planner: if two
+submissions would be described by two separate planner abstracts, they count
+as two planners; variants that can be described in one abstract count as one
+planner.
 
 After the feature stop (see the schedule below), only bug-fix pull requests
-are accepted. We will then run all planners on all tasks and give
-participants access to the logs and results of their own planners, and we
-ask you to check your results and send pull requests with detailed bug fixes
-if something went wrong on your side. We plan at least two rounds of this
-testing and debugging.
+are accepted. We will then run all planners on all tasks and give participants
+access to the logs and results of their own planners, and we ask you to check
+your results and send pull requests with detailed bug fixes if something went
+wrong on your side. We plan at least two rounds of this testing and debugging.
 
 
 Planner abstract
@@ -181,7 +179,6 @@ Organizers
 Clemens Büchner (University of Basel)
 Daniel Gnad (Heidelberg University & Linköping University)
 Arnaud Lequen (Linköping University)
-Travis Rivera Petit (University of Basel)
 David Speck (University of Basel)
 
 Contact: ipc2027-classical@googlegroups.com
