@@ -272,6 +272,28 @@ on the official IPC 2027 web site, and the source code of submitted planners
 must be released under a license allowing free non-commercial use.
 
 
+## Miscellaneous
+
+### On the Rationale behind the Plan Improvement Track
+
+This year, we introduce a new track on plan improvement, which aims at finding a
+plan that is better than a given (suboptimal) plan within the available hardware
+resources. The track is run instead of the satisficing track, whose goal is to
+find the best possible plan within the given resources, but without an existing
+plan as input.
+
+While at first glance this may appear to replace the satisficing track, this is
+by no means the intention. We believe that this track is a generalization, as it
+allows satisficing approaches to participate simply by ignoring the additional
+input. More importantly, it also provides a home for other approaches, such as
+those that explicitly account for a given upper cost bound or directly focus on
+plan improvement, allowing them to meaningfully participate in the IPC.
+
+Finally, this setting also provides a natural connection to recent advances in
+machine learning approaches for planning, which often produce long or expensive
+solutions that can benefit from subsequent plan improvement.
+
+
 ## Organizers
  - [Clemens Büchner](http://ai.cs.unibas.ch/people/buechner/index.html) (University of Basel)
  - [Daniel Gnad](https://fip.ifi.uni-heidelberg.de) (Heidelberg University \& Linköping University)
