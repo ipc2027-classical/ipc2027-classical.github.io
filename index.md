@@ -66,9 +66,7 @@ and *hard-to-ground* is new by popular demand.
  - An initial plan is provided for each task as a file with the extension
    `.plan` containing a list of grounded actions, as it could be used as input
    for [VAL](https:://github/KCL-Planning/VAL) (see
-   [here](plan-improvement-example/prob01.plan) for an example using
-   [prob01](plan-improvement-example/prob01.pddl) of the [gripper
-   domain](plan-improvement-example/domain.pddl)).
+   [this example](plan-improvement-example.zip) for `gripper/prob01.pddl`).
  - Planners must return a plan of strictly lower cost.
  - The score of a planner on a solved task is 0 if the reported plan has higher
    or equal cost than the initial plan. Otherwise, a plan of cost C scores
