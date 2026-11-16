@@ -32,11 +32,11 @@ Domains on our website.
 PDDL fragment
 ------------------------------------------------------------------------------
 
-IPC 2027 will use the same subset of PDDL 3.1 as the recent classical tracks
-(as since IPC 2011): STRIPS, action costs, negative preconditions, and
-conditional effects, possibly in combination with universally quantified
-effects (forall). We will also consider domains with disjunctive
-preconditions, existential quantifiers, and axioms.
+IPC 2027 will use the same subset of PDDL 3.1 as IPC 2023: STRIPS, action
+costs, negative preconditions, and conditional effects, possibly in
+combination with universally quantified effects (forall). We will also
+consider domains with disjunctive preconditions, existential quantifiers, and
+axioms.
 
 
 Tracks
@@ -59,21 +59,21 @@ There will be four tracks:
  - plan-improvement:
        similar to the former satisficing track, but an initial plan is
        provided for each task. Planners must return a plan of strictly lower
-       cost; if the returned plan has equal or worse cost than the initial
+       cost; if the returned plan has equal or higher cost than the initial
        plan, the score for that task is 0. Otherwise, a plan of cost C scores
        log(G/C)/log(G/C*), where G is the cost of the initial plan and C* the
-       cost of the best-known plan; the score of a planner is the sum of its
+       cost of the best known plan; the score of a planner is the sum of its
        scores over all tasks.
 
  - hard-to-ground:
-       instances that cannot be grounded with state-of-the-art grounding
-       approaches, i.e., whose fully instantiated representation is too large
-       to be computed within reasonable time and memory. The score of a
-       planner on a solved task is C*/C, where C is the cost of the cheapest
-       plan it discovered and C* is the cost of the best-known plan. The score
-       of a planner is the sum of its scores over all tasks. For this track,
-       the input PDDL fragment is restricted: no axioms, no conditional
-       effects, and no quantifiers.
+       focuses on instances that are challenging for state-of-the-art
+       grounding approaches, i.e., whose fully instantiated representation is
+       too large to be computed within reasonable time and memory. The score
+       of a planner on a solved task is C*/C, where C is the cost of the
+       reported plan and C* is the cost of the best known plan. The score of a
+       planner is the sum of its scores over all tasks. For this track, the
+       input PDDL fragment is restricted: no axioms, no conditional effects,
+       and no quantifiers.
 
 All tracks share the same compute resources: a single CPU core, 8 GB of
 memory, and no internet connection. The time limit is 30 minutes per task,
@@ -140,7 +140,7 @@ After the feature stop (see the schedule below), only bug-fix pull requests
 are accepted. We will then run all planners on all tasks and give participants
 access to the logs and results of their own planners, and we ask you to check
 your results and send pull requests with detailed bug fixes if something went
-wrong on your side. We plan at least two rounds of this testing and debugging.
+wrong on your side.
 
 
 Planner abstract
