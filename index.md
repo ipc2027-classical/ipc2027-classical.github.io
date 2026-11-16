@@ -27,9 +27,9 @@ Please forward the following calls to all interested parties.
 
 ## Tracks
 
-IPC 2027 features four tracks: `optimal` and `agile` recur from previous
-competitions; `plan-improvement` puts a twist on the former `satisficing` track;
-and `hard-to-ground` is new by popular demand.
+IPC 2027 features four tracks: *optimal* and *agile* recur from previous
+competitions; *plan-improvement* puts a twist on the former *satisficing* track;
+and *hard-to-ground* is new by popular demand.
 
 ### Optimal Track
  - single CPU core
@@ -66,7 +66,9 @@ and `hard-to-ground` is new by popular demand.
  - An initial plan is provided for each task as a file with the extension
    `.plan` containing a list of grounded actions, as it could be used as input
    for [VAL](https:://github/KCL-Planning/VAL) (see
-   [here](plan-improvement-example/) for an example).
+   [here](plan-improvement-example/prob01.plan) for an example using
+   [prob01](plan-improvement-example/prob01.pddl) of the [gripper
+   domain](plan-improvement-example/domain.pddl)).
  - Planners must return a plan of strictly lower cost.
  - The score of a planner on a solved task is 0 if the reported plan has higher
    or equal cost than the initial plan. Otherwise, a plan of cost C scores
@@ -117,11 +119,12 @@ Based on that, we will create private repositories under the
 all participants as users with with write access and participants can commit
 to the repository as they wish until the “feature stop” deadline.
 
-[!IMPORTANT]
-A team can enter multiple planners into the competition, but each planner must
-have a designated first author. Across teams, each participant can be first
-author of at most one planner per track (i.e., one can be first author of
-planners of different teams if these planners participate in different tracks).
+> [!IMPORTANT]
+> A team can enter multiple planners into the competition, but each planner must
+> have a designated first author. Across teams, each participant can be first
+> author of at most one planner per track (i.e., one can be first author of
+> planners of different teams if these planners participate in different
+> tracks).
 
 ## Planner Submission
 
