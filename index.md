@@ -78,7 +78,6 @@ and *hard-to-ground* is new by popular demand.
  - If that happens in more than one domain, the entry is disqualified.
 
 ### Hard-to-ground Track
-(similar to the former satisficing track)
  - single CPU core
  - no internet access
  - 8GB memory limit
