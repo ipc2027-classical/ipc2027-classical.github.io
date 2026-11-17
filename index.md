@@ -16,7 +16,7 @@ Please forward the following calls to all interested parties.
 | Event                                         | Date               |
 |:----------------------------------------------|:-------------------|
 | Call for domains                              | September 14, 2026 |
-| Call for participation                        | November 2026      |
+| Call for participation                        | November 17, 2026  |
 | Domain submission deadline                    | early 2027         |
 | Planner registration                          | early 2027         |
 | Feature stop (final planner submission)       | March-April 2027   |
