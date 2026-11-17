@@ -116,7 +116,7 @@ Based on that, we will create private repositories under the
 all participants as users with with write access and participants can commit
 to the repository as they wish until the “feature stop” deadline.
 
-> [!IMPORTANT]
+> IMPORTANT:
 > A team can enter multiple planners into the competition, but each planner must
 > have a designated first author. Across teams, each participant can be first
 > author of at most one planner per track (i.e., one can be first author of
