@@ -98,6 +98,9 @@ preconditions, and conditional effects (possibly in combination with forall,
 as in IPC 2014, 2018 and 2023). We will also consider including domains with
 disjunctive preconditions and existential quantifiers.
 
+The hard-to-ground track uses a more restricted input PDDL fragment: no axioms,
+no conditional effects, and no quantifiers.
+
 ## Registration
 Registration is not yet open. To register a team, you will need to provide the
 following information:
